@@ -1,0 +1,84 @@
+#MAIL,
+#URL,
+#NAME {
+  display: inline-block;
+  width: 100%;
+  height: auto;
+  margin: 10px auto;
+  padding: 14px;
+  background: #fff;
+  color: #222;
+  border: 1px solid var(--contentL);
+  border-radius:5px;
+}
+  
+input {
+  font-size: 13px;
+  margin-bottom: 15px;
+}
+  
+h6,
+.center {
+  text-align: center;
+}
+
+#copyBtn, 
+#reload {
+  display: none;
+}
+ 
+.btns {
+  margin-top: 15px;
+  display: flex;
+  justify-content: center;
+}
+
+.btns > * {
+  flex-grow: 1;
+  text-align: center;
+  justify-content: center;
+}
+
+.btns > *:first-child {
+  margin-right: 10px;
+  background: var(--linkB);
+  color: #fffdfc;
+}
+
+.btns > *:last-child {
+  flex: 0 0 auto;
+}
+
+.Btn {
+  display: inline-flex;
+  align-items: center;
+  cursor: pointer;
+  padding: 10px 15px;
+  outline: 0;
+  border: 0;
+  border-radius: 0.5rem;
+  line-height: 20px;
+  color: rgba(0, 0, 0, 0.8);
+  background: #e9e9e9;
+  font-size: 14px;
+  font-family: var(--fontB);
+  white-space: nowrap;
+  overflow: hidden;
+  font-weight: bold;
+}
+
+.drK #NAME,
+.drK #MAIL,
+.drK #URL {
+  background: var(--darkB);
+  border:1px solid var(--darkBl);
+}  
+
+.drK .btns >*:first-child {
+  background: var(--darkU);
+}
+
+.drK .btns >*:last-child {
+  background: var(--darkBa);
+  color: rgba(255, 255, 255, .8);
+}
